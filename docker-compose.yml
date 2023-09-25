@@ -50,8 +50,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: 'root'
       MYSQL_DATABASE : 'testdb'
-      MYSQL_USER : 'w0lf3ns'
-      MYSQL_PASSWORD: 'aNDREE02019868251'
+      MYSQL_USER : 'someus3r'
+      MYSQL_PASSWORD: 'ch4ng3_m3'
     volumes:
       - ./mysql_data:/var/lib/mysql
     # links:
@@ -68,8 +68,8 @@ services:
     ports:
       - "8082:80"
     environment:
-      MYSQL_USERNAME: 'w0lf3ns'
-      MYSQL_PASSWORD: 'aNDREE02019868251%'
+      MYSQL_USERNAME: 'someus3r'
+      MYSQL_PASSWORD: 'ch4ng3_m3'
       PMA_USER: 'root'
       PMA_PASSWORD: 'root'
       PMA_HOST: 'mysql-container'
